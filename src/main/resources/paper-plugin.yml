@@ -1,0 +1,5 @@
+name: DimensionDisable
+version: '1.0-SNAPSHOT'
+main: net.saturn.dimensionDisable.DimensionDisable
+api-version: '1.21'
+authors: [ PumpkinDev ]
