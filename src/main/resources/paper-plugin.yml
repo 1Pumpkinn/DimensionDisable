@@ -1,5 +1,13 @@
 name: DimensionDisable
-version: '1.0-SNAPSHOT'
+version: '${version}'
 main: net.saturn.dimensionDisable.DimensionDisable
 api-version: '1.21'
 authors: [ PumpkinDev ]
+
+# NOTE: Paper plugins do NOT declare commands in paper-plugin.yml.
+# Commands are registered programmatically via the lifecycle API.
+
+permissions:
+  dimensiondisable.admin:
+    description: Allows toggling dimensions on/off.
+    default: op

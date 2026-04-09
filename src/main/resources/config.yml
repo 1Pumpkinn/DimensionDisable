@@ -1,0 +1,7 @@
+# DimensionDisable Configuration
+# Set to true to block players from entering that dimension.
+# All methods of entry are blocked: walking through portals,
+# ender pearls, boats, and other vehicles.
+
+disable-nether: false
+disable-end: false
